@@ -79,7 +79,7 @@ if(isset($_SESSION["users"])){
                 </div>
             </div>
         </section>
-        <section class="event-section">
+        <section class=" event-section ">
             <div class="event-content">
                 <div class="event-img">
                     <img src="./IMAGE/photo_18_2025-01-29_03-55-05.jpg" alt="Event Image">
