@@ -16,6 +16,7 @@ if(isset($_SESSION["users"])){
     <meta name="author" content="ARU Tech Club Team">
     <meta name="keywords" content="technology, club, events, learning, ARU">
     <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <title>ARU TECHNO CLUB</title>
 </head>
@@ -79,13 +80,21 @@ if(isset($_SESSION["users"])){
                 </div>
             </div>
         </section>
+<<<<<<< HEAD
         <section class=" event-section ">
+=======
+        <section class="event-section">
+>>>>>>> f689aae (done)
             <div class="event-content">
                 <div class="event-img">
                     <img src="./IMAGE/photo_18_2025-01-29_03-55-05.jpg" alt="Event Image">
                 </div>
                 <div class="event-text" id="Event2">
+<<<<<<< HEAD
                     <h3>Welcome Event 2017\7</h3>
+=======
+                    <h3>Welcome Event 2017</h3>
+>>>>>>> f689aae (done)
                     <p>
                         The ARU Techno Club proudly hosted a grand Welcome Event for the Batch of 2017, creating a
                         vibrant and
@@ -102,7 +111,11 @@ if(isset($_SESSION["users"])){
             </div>
         </section>
          <!-- gallery section -->
+<<<<<<< HEAD
          <section class="gallerySection ">
+=======
+         <section class="gallerySection">
+>>>>>>> f689aae (done)
             <h2 class="gall" id="GALLERY">GALLERY</h2>
             <div class="gallery">
                 <a href="#AI" id="img1"><img src="./IMAGE/teme.jpg" alt="Gallery Image 1"></a>
@@ -162,8 +175,12 @@ if(isset($_SESSION["users"])){
                     <td>Full-Stack Project</td>
                     <td>Branding & Identity</td>
                     <td>Natural Language Processing</td>
+<<<<<<< HEAD
                     <td>Cybersecurity  Strategies</td>
 
+=======
+                    <td>Cybersecurity Strategies</td>
+>>>>>>> f689aae (done)
                 </tr>
             </table>
         </section>   
