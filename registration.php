@@ -85,7 +85,7 @@ if(isset($_SESSION["users"])){
                     <img src="./IMAGE/photo_18_2025-01-29_03-55-05.jpg" alt="Event Image">
                 </div>
                 <div class="event-text" id="Event2">
-                    <h3>Welcome Event 2017</h3>
+                    <h3>Welcome Event 2017\7</h3>
                     <p>
                         The ARU Techno Club proudly hosted a grand Welcome Event for the Batch of 2017, creating a
                         vibrant and
@@ -102,7 +102,7 @@ if(isset($_SESSION["users"])){
             </div>
         </section>
          <!-- gallery section -->
-         <section class="gallerySection">
+         <section class="gallerySection ">
             <h2 class="gall" id="GALLERY">GALLERY</h2>
             <div class="gallery">
                 <a href="#AI" id="img1"><img src="./IMAGE/teme.jpg" alt="Gallery Image 1"></a>
