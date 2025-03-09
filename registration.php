@@ -162,7 +162,8 @@ if(isset($_SESSION["users"])){
                     <td>Full-Stack Project</td>
                     <td>Branding & Identity</td>
                     <td>Natural Language Processing</td>
-                    <td>Cybersecurity Strategies</td>
+                    <td>Cybersecurity  Strategies</td>
+
                 </tr>
             </table>
         </section>   
