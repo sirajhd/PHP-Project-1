@@ -407,6 +407,87 @@ footer {
 .social-links a:hover {
     color: #f4a261;
 }
+/* Add this CSS for the beautiful sidebar */
+        :root {
+            --sidebar-width: 250px;
+            --sidebar-bg: #2c3e50;
+            --sidebar-text: #ecf0f1;
+            --sidebar-hover: #34495e;
+            --transition-speed: 0.3s;
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+        }
+
+        .sidebar {
+            height: 100%;
+            width: var(--sidebar-width);
+            position: fixed;
+            top: 0;
+            left: calc(-1 * var(--sidebar-width));
+            background-color: var(--sidebar-bg);
+            overflow-x: hidden;
+            padding-top: 60px;
+            transition: var(--transition-speed);
+            z-index: 1000;
+            box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .sidebar a {
+            padding: 15px 20px;
+            text-decoration: none;
+            font-size: 18px;
+            color: var(--sidebar-text);
+            display: block;
+            transition: background-color var(--transition-speed);
+        }
+
+        .sidebar a:hover {
+            background-color: var(--sidebar-hover);
+        }
+
+        .sidebar .closebtn {
+            position: absolute;
+            top: 10px;
+            right: 20px;
+            font-size: 30px;
+            color: var(--sidebar-text);
+            cursor: pointer;
+        }
+
+        .openbtn {
+            font-size: 20px;
+            cursor: pointer;
+            background-color: var(--sidebar-bg);
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            position: fixed;
+            top: 10px;
+            left: 10px;
+            z-index: 999;
+            transition: var(--transition-speed);
+        }
+
+        .openbtn:hover {
+            background-color: var(--sidebar-hover);
+        }
+
+        .main-content {
+            transition: margin-left var(--transition-speed);
+            padding: 20px;
+        }
+
+        /* When the sidebar is open */
+        .sb-sidenav-toggled .sidebar {
+            left: 0;
+        }
+
+        .sb-sidenav-toggled .main-content {
+            margin-left: var(--sidebar-width);
+        }
 
 
 
