@@ -31,6 +31,7 @@ if(isset($_SESSION["users"])){
                 <li><a href="#Event">Events</a></li>
                 <li><a href="#GALLERY">Gallery</a></li>
                 <li><a href="#Schedule">Schedule</a></li>
+                <li><a href="#SignUp">Sign Up</a></li>
             </ul>
         </nav>
     </header>
@@ -200,7 +201,7 @@ if(isset($_SESSION["users"])){
                 array_push($errors, "Email already exists!");
             }
 
-            if (count($errors) > 0) {
+            if (Count($errors) > 0) {
                 foreach ($errors as $error) {
                     echo "<div class='alert alert-danger'>$error</div>";
                 }
@@ -217,7 +218,7 @@ if(isset($_SESSION["users"])){
             }
         }
         ?>
-        <h2>REGISTRATION FORM</h2>
+        <h2 id="SignUp">REGISTRATION FORM</h2>
         <form action="" method="post">
             <div class="form-group">
                 <input class="form-control" type="text" name="fullname" placeholder="Full Name">
