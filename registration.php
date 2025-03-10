@@ -36,6 +36,23 @@ if(isset($_SESSION["users"])){
         </nav>
     </header>
 
+<!-- Sidebar -->
+    <div id="sidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeSidebar()">&times;</a>
+        <a href="#HOME">Home</a>
+        <a href="#ABOUT">About</a>
+        <a href="#Event">Events</a>
+        <a href="#GALLERY">Gallery</a>
+        <a href="#Schedule">Schedule</a>
+        <a href="#SignUp">Sign Up</a>
+    </div>
+
+
+
+
+
+
+
     <section class="Home " id="HOME">
         <div class="hometext">
             <h1 class="well">WELCOME TO <br>ARSI UNIVERSITY</br> TECHNOLOGY CLUB</h1>
