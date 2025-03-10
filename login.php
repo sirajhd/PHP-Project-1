@@ -55,7 +55,7 @@ require_once "database.php"; // Ensure database connection is included
                 <input class="btn" type="submit" value="Login" name="login">
             </div>
         </form>
-        <div> <p>Not registered yet? <a href="registration.php">Register Here</a></p></div>
+        <div> <p>Not registered yet? <a href="index.php">Register Here</a></p></div>
     </div>
 </body>
 </html>
