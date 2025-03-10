@@ -46,18 +46,15 @@ if(isset($_SESSION["users"])){
         <a href="#Schedule">Schedule</a>
         <a href="#SignUp">Sign Up</a>
     </div>
+ <!-- Button to toggle the sidebar -->
+    <button id="sidebarToggle" class="openbtn">&#9776; Menu</button>
 
-
-
-
-
-
-
-    <section class="Home " id="HOME">
+    <section class="Home" id="HOME">
         <div class="hometext">
             <h1 class="well">WELCOME TO <br>ARSI UNIVERSITY</br> TECHNOLOGY CLUB</h1>
         </div>
     </section>
+
     
     <h2 class="gall" id="ABOUT">ABOUT</h2>
      <!-- About Section -->
