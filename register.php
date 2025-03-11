@@ -39,7 +39,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             mysqli_stmt_execute($stmt);
             echo json_encode(['success' => true, 'message' => 'You are registered successfully.']);
         } else {
-            echo json_encode(['success' => false, 'message' => 'Something went wrong.']);
+            echo json_encode(['success' => true, 'message' => 'Something went wrong.']);
         }
     }
 } else {
