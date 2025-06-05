@@ -1,0 +1,31 @@
+{
+  "date": "2025-03-10",
+  "changes": [
+    {
+      "fileName": "registration.php",
+      "timestamp": "2025-03-10T07:57:09.256Z",
+      "changeType": "modified",
+      "linesChanged": 273,
+      "fileType": "php"
+    },
+    {
+      "fileName": "registration.php",
+      "timestamp": "2025-03-10T08:00:45.915Z",
+      "changeType": "modified",
+      "linesChanged": 270,
+      "fileType": "php"
+    },
+    {
+      "fileName": "js\\script.js",
+      "timestamp": "2025-03-10T08:05:08.489Z",
+      "changeType": "modified",
+      "linesChanged": 16,
+      "fileType": "js"
+    }
+  ],
+  "totalChanges": 3,
+  "startTime": "2025-03-10T07:47:16.200Z",
+  "endTime": "2025-03-10T08:05:08.490Z",
+  "projectName": "c:\\Users\\Dell\\Documents\\webfinal\\PHP-Project-1",
+  "branchName": "main"
+}
